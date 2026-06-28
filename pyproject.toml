@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "sfpy-asm"
-version = "0.1.0"
+version = "0.1.1"
 description = "Experimental GCC/GAS inline assembly bridge for Python"
 readme = "README.md"
 requires-python = ">=3.10"
@@ -12,3 +12,8 @@ license = "MIT"
 
 [tool.setuptools]
 packages = ["sfpy"]
+
+[project.urls]
+Homepage = "https://github.com/sunuhwang/sfpy-asm"
+Repository = "https://github.com/sunuhwang/sfpy-asm"
+Issues = "https://github.com/sunuhwang/sfpy-asm/issues"
